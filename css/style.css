@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    background: #000;
+    color: white;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    flex-flow: row;
+}
+
+.section-one{
+    background: white;
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#black{
+    width: 100%;
+    height: auto;
+}
+
+.subscribe-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 7vh;
+}
+
+.promo{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#promos{
+    width: 35vh;
+    height: auto;
+}
+
+.section-cadastro{
+    background: black;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name, #email {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 1px solid;
+    box-shadow: none;
+}
+
+#cadastro{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vh;
+}
+
+.form-container {
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+    width: 80%;
+    text-align: center;
+}
+
+input{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vh;    
+}
+
+.subscribe-input {
+    background: blue;
+    width: 60%;
+    border: none;
+    padding: 5px;
+    font-size: large;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#logo{
+    width: 5vh;
+    height: auto;
+}
+
+#retorno{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7vh;
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+    main {
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .section-one{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .black-container {
+        width: 100%;
+        height: auto;
+    }
+
+    #black{
+        width: 100%;
+        height: auto;
+    }
+    
+    .subscribe-container {
+        height: auto;
+        width: 100%;
+    }
+
+    #promos{
+        width: 20vh;
+        height: auto;
+    }
+
+}

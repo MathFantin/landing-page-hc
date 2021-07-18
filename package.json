@@ -1,0 +1,20 @@
+{
+  "name": "landing-page-hc",
+  "version": "1.0.0",
+  "description": "Landing page desenvolvida para fins academicos para o treinamento Hiring Coders da Vetex em parceria\r com a Gama Academy.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathFantin/landing-page-hc.git"
+  },
+  "author": "Matheus Fantin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathFantin/landing-page-hc/issues"
+  },
+  "homepage": "https://github.com/MathFantin/landing-page-hc#readme"
+}
