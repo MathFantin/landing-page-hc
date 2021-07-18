@@ -75,7 +75,7 @@ main {
 }
 
 #promos{
-    width: 35vh;
+    width: 90%;
     height: auto;
 }
 
@@ -180,7 +180,7 @@ footer {
     }
 
     #promos{
-        width: 20vh;
+        width: 70%;
         height: auto;
     }
 
